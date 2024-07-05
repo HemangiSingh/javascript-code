@@ -17,8 +17,10 @@ console.log("2" > 1) // O/P => true, JS automatically converted "2" to 2
 console.log("02" > 1) // O/P => true, JS automatically converted "02" to 2
 // different data type
 
-/* always remember to check whether you are comparing same data types or not
-to get predictable results */
+/* always ensure whether you are comparing same data types or not
+to get predictable results
+because if you are comparing disimilar data types,
+you may get unpredictable results */
 
 console.log(null > 0) // false (0>0; 0 is not greater than 0)
 console.log(null == 0) // false (NaN==0 ; NaN is not equal to 0)
